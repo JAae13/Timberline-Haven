@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Timberline Haven | Contact</title>
+        <meta name="author" content="Jaelynn Shurley">
+        <meta name="description" content="Get in touch with Timberline Haven for questions or concerns at our cabin resort. Where every moment is a peaceful retreat.">
+
+        <!-- FAVICON CODE -->
+        <link rel="icon" href="img/favicon.ico">
+
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Graduate&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        
+        <!-- LINK TO EXTERNAL STYLESHEET -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <section id="navbar">
+                <h1><a href="index.html">Timberline Haven</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#accommodations">Accommodations</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <img src="img/swiss-valley.jpg" alt="Mountain valley with pine trees" class="responsive">
+        </header>
+
+        <main>
+            <div id="bkg">
+                <section id="contact">
+                    <div id="content">
+                        <h2>Contact Us</h2>
+                        <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+                        <hr>
+                        <p>Note : Required fields marked with a <span class="required">*</span></p>
+                        <img src="img/swiss-peak.jpg" alt="Small river surrounded by trees leading towards big mountain" width="350">
+                    </div>
+                    <div id="contact-form">
+                        <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                            <label for="my-name">Full Name:<span class="required">*</span></label>
+                            <input type="text" name="my-name" id="my-name" required>
+
+                            <label for="my-email">Email Address:</label>
+                            <input type="email" name="my-email" id="my-email" required>
+                            
+                            <label for="my-phone">Phone:</label>
+                            <input type="tel" name="my-phone" id="my-phone">
+
+                            <fieldset>
+                                <legend>Preferred Method of Contact<span class="required">*</span></legend>
+                                <input type="radio" name="contact-pref" id="pref-email" checked>
+                                <label for="pref-email">Email</label>
+                                <input type="radio" name="contact-pref" id="pref-phone">
+                                <label for="pref-phone">Phone</label>
+                            </fieldset>
+                            
+                            <label for="my-comments">Comments:</label>
+                            <textarea name="my-comments" id="my-comments" required></textarea>
+                            
+                            <input type="submit" name="my-submit" id="my-submit" value="Submit">
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <p>Copyright &copy; 2024 Timberline Haven - For educational purposes only</p>
+        </footer>
+    </body>
+</html>
